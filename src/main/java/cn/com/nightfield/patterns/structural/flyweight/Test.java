@@ -22,6 +22,5 @@ public class Test {
         Integer i4 = Integer.valueOf(128);
         System.out.println("is instance 127 equal: " + (i1 == i2));
         System.out.println("is instance 128 equal: " + (i3 == i4));
-        Short.valueOf()
     }
 }
