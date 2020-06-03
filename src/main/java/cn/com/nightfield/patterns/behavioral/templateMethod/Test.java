@@ -1,7 +1,5 @@
 package cn.com.nightfield.patterns.behavioral.templateMethod;
 
-import java.util.concurrent.locks.AbstractQueuedSynchronizer;
-
 /**
  * template method pattern defines the skeleton of an algorithm in the superclass,
  * and lets subclasses override specific steps of the algorithm without changing its
@@ -16,6 +14,5 @@ public class Test {
         System.out.println("--------------");
         PizzaCook baconPizzaCook = new BaconPizzaCook();
         baconPizzaCook.bakePizza();
-        AbstractQueuedSynchronizer
     }
 }
