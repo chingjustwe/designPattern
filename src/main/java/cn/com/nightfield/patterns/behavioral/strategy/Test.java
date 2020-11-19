@@ -16,7 +16,7 @@ public class Test {
         Worker mario = new Worker("Mario");
         mario.goToWork(bikeStrategy);
 
-        TransportationStrategy carStrategy = new BusStrategy("Tesla");
+        TransportationStrategy carStrategy = new CarStrategy("Tesla");
         Worker yoshi = new Worker("Yoshi");
         yoshi.goToWork(carStrategy);
     }
